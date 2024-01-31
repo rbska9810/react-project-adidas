@@ -1,0 +1,19 @@
+.FooterBottom {
+  height: 141px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.FooterBottom p:first-child {
+  margin-bottom: 15px;
+}
+.FooterBottom a {
+  color: white;
+}
+.FooterBottom a:hover {
+  text-decoration: underline;
+}

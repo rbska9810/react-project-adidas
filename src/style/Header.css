@@ -1,0 +1,70 @@
+.header {
+  height: 120px;
+  display: flex;
+}
+.header-inner {
+  display: flex;
+}
+/* logo */
+.logo {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+/* gnb */
+.gnb {
+  display: flex;
+  width: 670px;
+  align-items: center;
+  margin-right: auto;
+}
+.gnb li {
+  height: 100%;
+  flex: 1;
+}
+.gnb li a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  transition: .2s;
+}
+.gnb li a:hover {
+  color: rgb(133, 133, 133);
+}
+/* login */
+.login {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login a {
+  color: black;
+  display: flex;
+}
+.login a:hover {
+  text-decoration: underline gray;
+}
+.login-icon {
+  margin-right: 0.7rem;
+}
+.heart-btn-parent {
+  position: relative;
+}
+.heart-btn {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #ffd200;
+  top: -10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}

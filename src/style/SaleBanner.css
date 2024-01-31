@@ -1,0 +1,12 @@
+.SaleBanner {
+  cursor: pointer;
+  height: 71px;
+  background-color: #007bc6;
+  text-align: center;
+  line-height: 71px;
+}
+.SaleBanner h5 {
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+}

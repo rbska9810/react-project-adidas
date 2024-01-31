@@ -1,0 +1,49 @@
+.Health {
+  padding: 40px 0;
+  padding-bottom: 70px;
+}
+.health-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.HealthItem {
+  width: 370px;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.HealthItem-img {
+  overflow: hidden;
+}
+.HealthItem-img img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: .3s;
+}
+.HealthItem-img:hover img {
+  transform: scale(1.2);
+}
+.HealthItem-text h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.HealthItem-text p {
+  font-size: 13px;
+  color: #707070;
+}
+.HealthItem-buy a {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  display: flex;
+}
+.buy-arrow-icon {
+  margin-left: 10px;
+  transition: .3s;
+}
+.HealthItem-buy a:hover .buy-arrow-icon {
+  transform: translateX(10px);
+}

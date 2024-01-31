@@ -1,0 +1,70 @@
+.Items {
+  padding-bottom: 210px;
+}
+.Items .btn-wrap {
+  display: flex;
+  margin-bottom: 42px;
+}
+.Items .btn-wrap button {
+  border: 1px solid #000;
+  height: 47px;
+  font-size: 24px;
+  display: block;
+  transition: .2s;
+}
+.Items .black-btn {
+  width: 155px;
+  background-color: #000;
+  color: white;
+  margin-right: 1rem;
+}
+.Items .black-btn:hover {
+  background-color: white;
+  color: black;
+}
+.Items .white-btn {
+  width: 203px;
+  background-color: transparent;
+}
+.Items .white-btn:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* Item */
+.Item-wrap {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(2, 297px);
+  row-gap: 23px;
+  column-gap: 20px;
+}
+.Item {
+  cursor: pointer;
+}
+.Item-img {
+  overflow: hidden;
+  height: 239px;
+}
+.Item-img img {
+  width: 100%;
+  height: 100%;
+  transition: .2s;
+}
+.Item:hover .Item-img img {
+  transform: scale(1.2);
+}
+.Item-text h5 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #231815;
+}
+.Item:hover .Item-text h5 {
+  text-decoration: underline;
+}
+.Item-text p {
+  font-weight: 600;
+  color: #565656;
+}

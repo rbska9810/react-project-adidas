@@ -1,0 +1,23 @@
+.Brand {
+  height: 651px;
+  background-color: #f5f5e5;
+}
+.Brand-inner {
+  height: 100%;
+  padding: 100px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.Brand-inner>div {
+  width: 710px;
+}
+.Brand-inner>div>h3 {
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.Brand-inner>div>p {
+  line-height: 1.4;
+  font-weight: 500;
+}

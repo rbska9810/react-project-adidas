@@ -1,0 +1,10 @@
+.MainSlide {
+  height: 853px;
+}
+.MainSlide .swiper {
+  height: 100%;
+}
+.MainSlide .swiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}

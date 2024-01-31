@@ -1,0 +1,9 @@
+.FooterTop {
+  height: 141px;
+  display: flex;
+}
+.FooterTop p {
+  width: 1130px;
+  margin: auto;
+  line-height: 1.4;
+}

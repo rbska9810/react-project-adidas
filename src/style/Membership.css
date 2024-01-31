@@ -1,0 +1,45 @@
+.Membership {
+  height: 261px;
+  background-color: #ede734;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Membership h2 {
+  font-size: 33px;
+  font-weight: 900;
+}
+.Membership p {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.Membership-btn {
+  width: 111px;
+  height: 37px;
+  color: white;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.Membership-btn::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 1px solid #000;
+  top: 3px;
+  left: 2px;
+  transition: .2s;
+}
+.Membership-btn:hover::before {
+  top: 0;
+  left: 0;
+}
+.Membership-btn-arrow {
+  margin-left: 6px;
+}
